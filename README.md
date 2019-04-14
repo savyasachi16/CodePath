@@ -1,3 +1,3 @@
 # CodePath
 
-Submissions for CodePath Cyber Security Course submissions.
+Submissions for CodePath Cyber Security Course.
