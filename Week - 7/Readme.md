@@ -31,7 +31,20 @@ Time spent: **5** hours spent in total
         	```[embed src='https://youtube.com/embed/123\x3csvg onload=alert(9999)\x3e'][/embed]
           ```
   - [ ] Affected source code:
-  
+    
+3. (Required) Large File Upload Error XSS
+  - [ ] Summary: 
+    - Vulnerability types: Cross-Site Scripting
+    - Tested in version: 4.2
+    - Fixed in version: 4.2.3
+  - [ ] GIF Walkthrough:
+        ![ ](Week7_Attack3.gif)
+  - [ ] Steps to recreate:
+        1. Upload a file of size greater than 20MB with the following file name:
+        	```BigFile<img src=x onerror=alert("Exploit3")>.png
+          ```
+  - [ ] Affected source code:
+ 
 
 ## Assets
 
