@@ -19,18 +19,20 @@ Time spent: **5** hours spent in total
           <a title='x onmouseover=alert(unescape(/hello%20world/.source))style=position:absolute;left:0;top:0;width:5000px;height:5000px  <insert 64kb of random data>'></a>```
   - [ ] Affected source code:
     
-1. (Required) Unauthenticated Stored Cross-Site Scripting (XSS)
+2. (Required) Authenticated Stored Cross-Site Scripting (XSS) in YouTube URL Embeds
   - [ ] Summary: 
     - Vulnerability types: Cross-Site Scripting
     - Tested in version: 4.2
-    - Fixed in version: 4.2.1
+    - Fixed in version: 4.2.2
   - [ ] GIF Walkthrough:
-        ![ ](Week7_Attack1.gif)
+        ![ ](Week7_Attack2.gif)
   - [ ] Steps to recreate:
-        1. Paste the following as a comment on a post:
-        	```
-          <a title='x onmouseover=alert(unescape(/hello%20world/.source))style=position:absolute;left:0;top:0;width:5000px;height:5000px  <insert 64kb of random data>'></a>```
+        1. Paste the following as a body of a post:
+        	```[embed src='https://youtube.com/embed/123\x3csvg onload=alert(9999)\x3e'][/embed]
+          ```
   - [ ] Affected source code:
+  
+
 ## Assets
 
   1. Kali Linux Tool - WPScan: https://wpscan.org
