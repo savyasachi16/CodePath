@@ -24,7 +24,6 @@ We login to the compromised website with packet interception on. Inspecting the 
 
 Vulnerability #2: __________________
 
-
 ## Green
 
 Vulnerability #1: __________________
@@ -34,7 +33,10 @@ Vulnerability #2: __________________
 
 ## Red
 
-Vulnerability #1: __________________
+Vulnerability #1: IDOR
+The URL of the details of the Salesperson's information shows simple numerical sequencing to find user information. This can be used to find data of users, even the ones that are not listed on the page.
+![ ](Week8_Attack5.gif)
+
 
 Vulnerability #2: __________________
 
