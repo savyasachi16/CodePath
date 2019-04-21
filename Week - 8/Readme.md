@@ -81,3 +81,4 @@ Vulnerability #2: CSRF
 		</script>
 </html>
 ```
+![ ](Week8_Attack6.gif)
