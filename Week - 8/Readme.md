@@ -19,6 +19,8 @@ Each version of the site has been given two of the six vulnerabilities. (In othe
 Vulnerability #1: Session Hijacking
 We login to the compromised website with packet interception on. Inspecting the packet reveals that the sessionid field is visible as plaintext in Burp Suite. This session id is copied as is and pasted in a new window in a different browser. The user is logged in automatically without the need to enter credentials.
 
+![ ](Week8_Attack1.gif)
+
 
 Vulnerability #2: __________________
 
