@@ -39,8 +39,3 @@ Vulnerability #1: IDOR
 
 
 Vulnerability #2: __________________
-
-
-## Notes
-
-Describe any challenges encountered while doing the work
