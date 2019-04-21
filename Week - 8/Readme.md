@@ -26,7 +26,10 @@ Vulnerability #2: __________________
 
 ## Green
 
-Vulnerability #1: __________________
+Vulnerability #1: SQL Injection
+- Sales Person information was up for grabs due to lack of SQL Input Sanitation as seen below:
+![ ](Week8_Attack3.gif)
+
 
 Vulnerability #2: __________________
 
