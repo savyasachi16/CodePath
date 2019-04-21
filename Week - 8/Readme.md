@@ -22,7 +22,10 @@ Vulnerability #1: Session Hijacking
 ![ ](Week8_Attack1.gif)
 
 
-Vulnerability #2: __________________
+Vulnerability #2: Cross-Site Scripting (XSS)
+- The feedback form page text entry box can be used to inject javascripts. These javascripts run when the user logs in and checks the received feedbacks.
+![ ](Week8_Attack2.gif)
+
 
 ## Green
 
