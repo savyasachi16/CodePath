@@ -4,8 +4,8 @@
  - Ubuntu - Dionaea with HTTP
 
 2. Issues Encountered:
- - Setting up GCP VM for mhn-admin: Do not use machine type as "f1-micro" for mhn admin machines. This causes mhn installation script to fail after the "Path for log file" prompt. Possible cause of issue here low memory in f1-micro instances. Please use machine type as "g1-small" instead. This also speeds up set up and installation processes.
- - After success installation the following output should be seen for 'sudo supervisorctl status':
+ - Setting up GCP VM for mhn-admin: Do not use machine type as ```f1-micro``` for mhn admin machines. This causes mhn installation script to fail after the ```Path for log file" prompt```. Possible cause of issue here low memory in f1-micro instances. Please use machine type as ```g1-small``` instead. This also speeds up set up and installation processes.
+ - After success installation the following output should be seen for ```sudo supervisorctl status```:
  ```
 geoloc                           RUNNING    pid 31443, uptime 0:00:12
 honeymap                         RUNNING    pid 30826, uptime 0:08:54
@@ -27,12 +27,12 @@ mhn-collector                    RUNNING    pid 4050, uptime 0:03:42
 mhn-uwsgi                        RUNNING    pid 4048, uptime 0:03:42
 mnemosyne                        RUNNING    pid 4046, uptime 0:03:42
  ```
- Checking the logs with "tail -f /var/log/mhn/mhn-celery-worker.*" would display the following line at the end:
+ Checking the logs with ```tail -f /var/log/mhn/mhn-celery-worker.*``` would display the following line at the end:
  ```
  VersionMismatch(‘Redis transport requires redis-py versions 3.2.0 or later. You have 2.10.6’,)
  ```
  This can be fixed by removing the current version of redis and installing the latest version of redis using pip.
- Restart mhn-celery-worker using "sudo supervisorctl start mhn-celery-worker"
+ Restart mhn-celery-worker using ```sudo supervisorctl start mhn-celery-worker```.
 
 3. Summary of HoneyPot Data:
  - Total time HoneyPot is active: 30 minutes.
