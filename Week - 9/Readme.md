@@ -36,3 +36,4 @@ mnemosyne                        RUNNING    pid 4046, uptime 0:03:42
 3. Summary of HoneyPot Data:
  - Total time HoneyPot is active: 30 minutes.
  - Total attacks: 1025
+ - JSON Output file: (session.json)
