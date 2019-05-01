@@ -31,7 +31,8 @@ mnemosyne                        RUNNING    pid 4046, uptime 0:03:42
  ```
  VersionMismatch(‘Redis transport requires redis-py versions 3.2.0 or later. You have 2.10.6’,)
  ```
- This can be fixed by removing the current version of redis and installing the latest using pip.
+ This can be fixed by removing the current version of redis and installing the latest version of redis using pip.
+ Restart mhn-celery-worker using "sudo supervisorctl start mhn-celery-worker"
 
 3. Summary of HoneyPot Data:
  - Total time HoneyPot is active: 30 minutes.
