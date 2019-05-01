@@ -28,8 +28,10 @@ mhn-uwsgi                        RUNNING    pid 4048, uptime 0:03:42
 mnemosyne                        RUNNING    pid 4046, uptime 0:03:42
  ```
  Checking the logs with "tail -f /var/log/mhn/mhn-celery-worker.*" would display the following line at the end:
- ```VersionMismatch(‘Redis transport requires redis-py versions 3.2.0 or later. You have 2.10.6’,)
+ ```
+ VersionMismatch(‘Redis transport requires redis-py versions 3.2.0 or later. You have 2.10.6’,)
  ```
  This can be fixed by removing the current version of redis and installing the latest using pip.
+
 A summary of the data collected: number of attacks, number of malware samples, etc.
 Any unresolved questions raised by the data collected
