@@ -33,5 +33,6 @@ mnemosyne                        RUNNING    pid 4046, uptime 0:03:42
  ```
  This can be fixed by removing the current version of redis and installing the latest using pip.
 
-A summary of the data collected: number of attacks, number of malware samples, etc.
-Any unresolved questions raised by the data collected
+3. Summary of HoneyPot Data:
+ - Total time HoneyPot is active: 30 minutes.
+ - Total attacks: 1025
